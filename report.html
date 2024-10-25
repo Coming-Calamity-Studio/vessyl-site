@@ -3,8 +3,58 @@
     <head>
         <title>Project Updates</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div class="site-container">
+            <div id="navbar" class="color-accent-purple">
+                <ul>
+                    <li><a class="undecorated" href="team.html">Team</a></li>
+                    <li><a class="undecorated" href="report.html">Project Updates</a></li>
+                </ul>
+            </div>
+            <div id="updates" class="padded-body color-main">
+                <button class="accordion">
+                    Entry Title
+                </button>
+                <div class="entry panel">
+                    <h1 class="entry-section">Bug Fixes</h1>
+                    <p class="entry-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vero minus aspernatur accusantium debitis quaerat quasi aut, quod praesentium obcaecati distinctio aliquid autem sequi, a optio adipisci, aperiam sunt? Excepturi!</p>
+                    <h1 class="entry-section">Goals and Progress</h1>
+                    <p class="entry-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint obcaecati eos, recusandae exercitationem accusamus architecto, a consectetur, at officia nobis tempora consequuntur corporis harum incidunt quae saepe voluptas accusantium modi.</p>
+                    <h1 class="entry-section">Tech Highlights</h1>
+                    <p class="entry-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi omnis fugiat expedita? Assumenda asperiores fuga hic dicta dolor ratione nobis amet repellendus delectus iusto, ipsum, earum nemo fugit sapiente consequuntur?</p>
+                    <h1 class="entry-section">Design Highlights</h1>
+                    <p class="entry-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque odio rem molestias architecto dolorum repudiandae sapiente, laborum ipsum obcaecati eum, in ipsam blanditiis quam illum nihil nam nulla iure rerum?</p>
+                    <h1 class="entry-section">Other Fun Stuff</h1>
+                    <p class="entry-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium perferendis nam quae fugiat laborum voluptatem iusto non, sint ducimus doloribus molestiae perspiciatis, aliquam blanditiis quaerat assumenda totam illo necessitatibus?</p>
+                    <h1 class="entry-section">Very Important Stats</h1>
+                    <p class="entry-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo porro exercitationem amet dolorum sint possimus neque magni odio nisi harum, suscipit magnam quaerat corporis fugit beatae distinctio animi veniam.</p>
+                </div>
+            </div>
+            <div id="footer" class="padded-body color-accent-purple">
+    
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+        </script>
     </body>
 </html>

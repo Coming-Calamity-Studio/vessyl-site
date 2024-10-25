@@ -46,9 +46,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    align-items: flex-end;
 }
-
-
 
 #navbar ul {
     list-style: none;
@@ -84,3 +83,32 @@ body{
     margin-bottom: -32000px;
 
 }
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #e7af34;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.3rem;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #a47613;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background:linear-gradient(#e7af34, #a47613);
+    color: #000;
+    display: none;
+    overflow: hidden;
+  }
