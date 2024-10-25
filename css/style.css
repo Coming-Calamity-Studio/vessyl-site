@@ -28,7 +28,7 @@ body{
 }
 
 .color-accent-gold{
-    background-color: #e7af34;
+    background:linear-gradient(#e7af34, #a47613);
 }
 
 .color-accent-purple{
@@ -38,7 +38,7 @@ body{
 
 #navbar{
     display:flex;
-    width: 100%;
+    justify-content: flex-end;
 }
 
 #internal-team{
@@ -55,10 +55,22 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
+    margin: 0;
 }
 
 #navbar ul li {
-    
+    border-radius: 5px;
+    padding:4% 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+#navbar ul li:hover {
+    background-color: #bc24b0;
 }
 
 .icon{
