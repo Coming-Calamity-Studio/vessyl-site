@@ -41,6 +41,15 @@ body{
     width: 100%;
 }
 
+#internal-team{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
 #navbar ul {
     list-style: none;
     display: flex;
@@ -56,6 +65,20 @@ body{
 .icon{
     max-width: 30px;
 }
+
+.team-profile{
+    text-align: center;
+}
+
+.team-img{
+    border-radius: 12%;
+    max-width: 120px;
+}
+
+.team-job {
+    font-size: 0.8rem;
+}
+
 #footer{
     padding-bottom: 32000px;
     margin-bottom: -32000px;
