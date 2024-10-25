@@ -1,6 +1,6 @@
 # Vessyl Static Site
 
-As we begin the marketing work for our game, we will use a static site to communicate with our audience important information about our game, who our team is and the updates from our project as we make progress througout our capstone.
+As we begin the marketing work for our game, we will use a static site to communicate with our audience important information about our game, who our team is and the updates from our project as we make progress throughout our Capstone.
 
 ## Sections
 Our site has three main sections. 
